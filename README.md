@@ -1,6 +1,11 @@
 # Generating Multimodal Representations for VQA using Graph Neural Networks
 
-This repository aims at providing a GNN-based implementation to reason over both input modalities and improve performance on a VQA dataset. Here, the model receives an image `im` and a text-based question `t` and outputs the answer to the question `t`.
+This repository aims at providing a GNN-based implementation to reason over both input modalities and improve performance on a VQA dataset. Here, the model receives an image `im` and a text-based question `t` and outputs the answer to the question `t`. The following approach is being followed by the GNN model for the Visual Question Answering task:-
+
+- Processing our input question into a graph G<sub>t</sub> and image into a graph G<sub>im</sub> using the Graph Parser.
+- Passing the text graph G<sub>t</sub> and image graph G<sub>im</sub> into a graph neural network (GNN) to get the text and image node embeddings.
+- Combining the embeddings using the Graph Matcher, which projects the text embeddings into the image embedding space and returns the combined multimodal representation of the input.
+- Passing the joint representation through a sequence to sequence model to output the answer to the question.
 
 ## Requirements
 
