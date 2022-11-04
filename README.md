@@ -1,1 +1,1 @@
-# Graph-Neural-Network-based-Visual-Question-Answering
+# Generating Multimodal Representations for VQA using Graph Neural Networks
