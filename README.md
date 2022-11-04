@@ -21,4 +21,5 @@ This repository aims at providing a GNN-based implementation to reason over both
 ## Results
 
 The predicted answer to each question alongside its corresponsing image can be seen in the following attached output image:-
+
 ![alt text](https://github.com/fork123aniket/Graph-Neural-Network-based-Visual-Question-Answering/blob/main/Images/Result.png)
