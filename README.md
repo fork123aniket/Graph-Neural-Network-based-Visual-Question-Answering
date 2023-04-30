@@ -16,7 +16,7 @@ This repository aims at providing a GNN-based implementation to reason over both
 
 ## Usage
 
-- This implementations trains the GNN model on the ***CLEVR*** dataset (a diagnostic dataset of 3D shapes that tests visual and linguistic reasoning), which can be downloaded from [***here***](https://cs.stanford.edu/people/jcjohns/clevr/).
+- This implementations trains the GNN model on the ***CLEVR*** dataset (a diagnostic dataset of `3D` shapes that tests visual and linguistic reasoning), which can be downloaded from [***here***](https://cs.stanford.edu/people/jcjohns/clevr/).
 - To pre-process and prepare the dataset for training, run `Dataset.py`
 - To see the GNN-based model implementation, check `Model.py`
 - `Match.py` is responsible for matching nodes locally via a graph neural network and then updating correspondence scores iteratively
