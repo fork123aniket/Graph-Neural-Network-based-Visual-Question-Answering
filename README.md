@@ -16,6 +16,7 @@ This repository aims at providing a GNN-based implementation to reason over both
 
 ## Usage
 
+- This implementations trains the GNN model on the ***CLEVR*** dataset (a diagnostic dataset of 3D shapes that tests visual and linguistic reasoning), which can be downloaded from [***here***](https://cs.stanford.edu/people/jcjohns/clevr/).
 - To pre-process and prepare the dataset for training, run `Dataset.py`
 - To see the GNN-based model implementation, check `Model.py`
 - `Match.py` is responsible for matching nodes locally via a graph neural network and then updating correspondence scores iteratively
@@ -25,6 +26,9 @@ This repository aims at providing a GNN-based implementation to reason over both
 
 ## Results
 
-The predicted answer to each question alongside its corresponsing image can be seen in the following attached output image:-
+The predicted answer to each question alongside its corresponsing image can be seen in the following attached output images:-
 
-![alt text](https://github.com/fork123aniket/Graph-Neural-Network-based-Visual-Question-Answering/blob/main/Images/Result.png)
+| Image | Question | GNN-Generated Answer|
+| ----- |:--------:|:-------------------:|
+| ![alt text](https://github.com/fork123aniket/Graph-Neural-Network-based-Visual-Question-Answering/blob/main/Images/Result.png) | There is a tiny matte thing that is left of the big gray cylinder and in front of the cyan metal cylinder; what color is it? | Purple |
+| ![alt text](https://github.com/fork123aniket/Graph-Neural-Network-based-Visual-Question-Answering/blob/main/Images/Result.png) | There is a small blue block; are there any spheres to the left of it? | Yes |
