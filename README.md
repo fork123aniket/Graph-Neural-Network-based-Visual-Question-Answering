@@ -30,5 +30,5 @@ The predicted answer to each question alongside its corresponsing image can be s
 
 | Image | Question | GNN-Generated Answer|
 | ----- |:--------:|:-------------------:|
-| ![alt text](https://github.com/fork123aniket/Graph-Neural-Network-based-Visual-Question-Answering/blob/main/Images/Result.png) | There is a tiny matte thing that is left of the big gray cylinder and in front of the cyan metal cylinder; what color is it? | Purple |
-| ![alt text](https://github.com/fork123aniket/Graph-Neural-Network-based-Visual-Question-Answering/blob/main/Images/Result.png) | There is a small blue block; are there any spheres to the left of it? | Yes |
+| ![alt text](https://github.com/fork123aniket/Graph-Neural-Network-based-Visual-Question-Answering/blob/main/Images/Shape1.PNG) | There is a tiny matte thing that is left of the big gray cylinder and in front of the cyan metal cylinder; what color is it? | Purple |
+| ![alt text](https://github.com/fork123aniket/Graph-Neural-Network-based-Visual-Question-Answering/blob/main/Images/Shape2.PNG) | There is a small blue block; are there any spheres to the left of it? | Yes |
